@@ -1,0 +1,191 @@
+body{
+    background-image: url(BACKGROUND.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 115%;  
+    
+}
+
+/*header css*/
+header {
+  background-color: #152a6d;
+  padding: 10px;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin-left: 25%;
+} 
+nav ul li {
+  display: inline;
+}
+nav ul li a {
+  color: #fff;
+  padding: 15px;
+  text-decoration: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav ul li a:hover {
+  background-color: #ffffff;
+  color: #152a6d;
+}
+nav ul li img{
+  width: 15%;
+}
+/*main css*/
+main img{
+    position: absolute;
+    margin-left: 1%;
+  }
+main{
+    background-color: #e8e4ff;
+    padding-left: 1%;
+    padding-right:1%;
+    padding-top: 5%;
+    padding-bottom: 1%;
+    width: 50%;
+    margin-left: 25%; 
+  }
+.text{
+  margin-top: 20%;
+ }
+.text h1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #152a6d;
+  margin-left: 8%;
+ }
+.text h3{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #152a6d;
+  margin-left: 8%;
+ }
+
+ /* start training button */
+.text button{
+  margin-top: 2%;
+  margin-left: 8%;
+ }
+ .button {
+  background-color: #152a6d;
+  border: none;
+  color: white;
+  padding: 30px 45px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 23px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 10px;
+}
+
+.button1 {
+  background-color: #152a6d; 
+  color: rgb(255, 255, 255); 
+ 
+}
+
+.button1:hover {
+  background-color: #00a2ff;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+ /*the three buttons*/
+.button3group .buttonA {
+  background-color: #152a6d;
+  border: none;
+  color: white;
+  padding: 30px 96.5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 26px;
+  cursor: pointer;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top:20% ;
+}
+
+.button3group .buttonA:not(:last-child) {
+  border-right: none;
+}
+
+.button3group .buttonA:hover {
+  background-color: #00a2ff;
+}
+
+/*section IMAGE AND BUTTON*/
+section img{
+  margin-left: 25%;
+}
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #0043a8;
+  color: rgb(255, 255, 255);
+  font-size: 27px;
+  padding: 16px 35px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 76%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container .btn:hover {
+  background-color: rgb(0, 255, 200);
+  color: rgb(0, 0, 0);
+  
+}
+
+/*footer*/
+footer {
+  background-color: #152a6d;
+  color: #fff;
+  padding: 20px;
+  
+}
+
+
+.footer-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.footer-menu li :hover {
+  color: rgb(57, 57, 57);
+  
+}
+
+.footer-menu li {
+  margin: 10px 30%;
+  font-size: 130%;
+}
+
+.footer-menu a {
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 10px;
+}
+footer img{
+  position: relative;
+  width: 60%;
+  margin-left: 18%;
+  margin-bottom: 10%;
+}
+
+@media only screen and (max-width: 2560px) 
+{
+section .container .btn{
+  margin-top: 60%;
+}
+}
